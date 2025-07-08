@@ -2,8 +2,8 @@
   "@context": {
     "foaf": "http://xmlns.com/foaf/0.1/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "uriprefix": "https://portal.carto4ch.huma-num.fr/glossary/",
-    "n0": "http://139.91.183.3/3M/",
+    "uriprefix-domains": "https://echoes-eccch.ue/domains/",
+    "n0": "http://139.91.183.3/3M/"
   },
   "@graph": [
     {
@@ -13,20 +13,16 @@
         {
           "@id": "uriprefix:3M"
         }]
-	},
-	{
+    },
+    {
       "@id": "uriprefix:3M",
       "@type": "skos:Concept",
-      "skos:altLabel": ".",
+      "skos:altLabel": "Blablabla.",
       "skos:definition": "Mapping Memory Manager maintenu par la FORTH. Appariement avec le CIDOC-CRM de base",
-      "skos:inScheme": {
-        "@id": "uriprefix:"
-      },
       "skos:prefLabel": "3M",
       "skos:topConceptOf": {
         "@id": "uriprefix:"
-      },
-      "foaf:homepage": {
-        "@id": "n0:"
       }
+    }
+  ]
 }
