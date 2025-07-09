@@ -1,27 +1,86 @@
 {
   "@context": {
-    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dc": "http://purl.org/dc/elements/1.1/",
     "skos": "http://www.w3.org/2004/02/skos/core#",
-    "uriprefix-domains": "https://echoes-eccch.ue/domains/",
-    "n0": "http://139.91.183.3/3M/"
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "taxechoes": "https://echoes-eccch.ue/taxonomy/#",
+    "domains": "https://echoes-eccch.ue/taxonomy/domains#"
   },
   "@graph": [
     {
-      "@id": "uriprefix:",
+      "@id": "https://echoes-eccch.ue/taxonomy/domains",
       "@type": "skos:ConceptScheme",
+      "dct:title": {
+        "@value": "Taxonomie ECHOES",
+        "@language": "fr"
+      },
+      "dct:description": {
+        "@value": "Taxonomie utilisée dans le projet patrimonial ECHOES",
+        "@language": "fr"
+      },
       "skos:hasTopConcept": [
         {
-          "@id": "uriprefix:3M"
-        }]
+          "@id": "domains:id-001"
+        },
+        {
+          "@id": "domains:id-002"
+        },
+        {
+          "@id": "domains:id-003"
+        },
+        {
+          "@id": "domains:id-004"
+        },
+        {
+          "@id": "domains:id-005"
+        }
+      ]
     },
     {
-      "@id": "uriprefix:3M",
+      "@id": "domains:id-001",
       "@type": "skos:Concept",
-      "skos:altLabel": "Blablabla.",
-      "skos:definition": "Mapping Memory Manager maintenu par la FORTH. Appariement avec le CIDOC-CRM de base",
-      "skos:prefLabel": "3M",
+      "skos:prefLabel": {
+        "@value": "Interpretation, Understanding",
+        "@language": "en"
+      },
+      "skos:narrower": [
+        {
+          "@id": "domains:id-006"
+        },
+        {
+          "@id": "domains:id-010"
+        },
+        {
+          "@id": "domains:id-011"
+        },
+        {
+          "@id": "domains:id-014"
+        },
+        {
+          "@id": "domains:id-023"
+        }
+      ],
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      },
       "skos:topConceptOf": {
-        "@id": "uriprefix:"
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-002",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Interpretation, Understanding",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-001"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
       }
     }
   ]
