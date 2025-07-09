@@ -73,11 +73,143 @@
       "@id": "domains:id-002",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Interpretation, Understanding",
+        "@value": "Creation, Mediation, Dissemination",
+        "@language": "en"
+      },
+      "skos:narrower": [
+        {
+          "@id": "domains:id-009"
+        },
+        {
+          "@id": "domains:id-016"
+        },
+        {
+          "@id": "domains:id-017"
+        },
+        {
+          "@id": "domains:id-018"
+        }
+      ],
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      },
+      "skos:topConceptOf": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-003",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Preservation, Protection",
+        "@language": "en"
+      },
+      "skos:narrower": [
+        {
+          "@id": "domains:id-007"
+        },
+        {
+          "@id": "domains:id-008"
+        },
+        {
+          "@id": "domains:id-013"
+        },
+        {
+          "@id": "domains:id-015"
+        },
+        {
+          "@id": "domains:id-021"
+        },
+        {
+          "@id": "domains:id-024"
+        }
+      ],
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      },
+      "skos:topConceptOf": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-004",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Diagnosis, Intervention",
+        "@language": "en"
+      },
+      "skos:narrower": [
+        {
+          "@id": "domains:id-012"
+        },
+        {
+          "@id": "domains:id-019"
+        },
+        {
+          "@id": "domains:id-020"
+        },
+        {
+          "@id": "domains:id-022"
+        }
+      ],
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      },
+      "skos:topConceptOf": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-005",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Computer scientists, Developers",
+        "@language": "en"
+      },
+      "skos:narrower": [
+        {
+          "@id": "domains:id-012"
+        },
+        {
+          "@id": "domains:id-019"
+        },
+        {
+          "@id": "domains:id-020"
+        },
+        {
+          "@id": "domains:id-022"
+        }
+      ],
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      },
+      "skos:topConceptOf": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-006",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Context Studies",
         "@language": "en"
       },
       "skos:broader": {
         "@id": "domains:id-001"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-007",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Cataloguing",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-003"
       },
       "skos:inScheme": {
         "@id": "https://echoes-eccch.ue/taxonomy/domains"

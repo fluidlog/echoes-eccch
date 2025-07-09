@@ -18,6 +18,35 @@ domains:id-001 a skos:Concept;
   skos:topConceptOf <https://echoes-eccch.ue/taxonomy/domains> .
 
 domains:id-002 a skos:Concept;
-  skos:prefLabel "Interpretation, Understanding"@en;
+  skos:prefLabel "Creation, Mediation, Dissemination"@en;
+  skos:narrower domains:id-009, domains:id-016, domains:id-017, domains:id-018;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains>;
+  skos:topConceptOf <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-003 a skos:Concept;
+  skos:prefLabel "Preservation, Protection"@en;
+  skos:narrower domains:id-007, domains:id-008, domains:id-013, domains:id-015, domains:id-021, domains:id-024;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains>;
+  skos:topConceptOf <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-004 a skos:Concept;
+  skos:prefLabel "Diagnosis, Intervention"@en;
+  skos:narrower domains:id-012, domains:id-019, domains:id-020, domains:id-022;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains>;
+  skos:topConceptOf <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-005 a skos:Concept;
+  skos:prefLabel "Computer scientists, Developers"@en;
+  skos:narrower domains:id-012, domains:id-019, domains:id-020, domains:id-022;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains>;
+  skos:topConceptOf <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-006 a skos:Concept;
+  skos:prefLabel "Context Studies"@en;
   skos:broader domains:id-001;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-007 a skos:Concept;
+  skos:prefLabel "Cataloguing"@en;
+  skos:broader domains:id-003;
   skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
