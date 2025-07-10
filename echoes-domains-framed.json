@@ -1,0 +1,454 @@
+{
+  "@context": {
+    "id": "@id",
+    "type": "@type",
+    "dct": "http://purl.org/dc/terms/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "skosxl": "http://www.w3.org/2008/05/skos-xl#",
+    "taxechoes": "https://echoes-eccch.ue/taxonomy/#",
+    "domains": "https://echoes-eccch.ue/taxonomy/domains#",
+    "skos:prefLabel": {
+      "@container": "@language"
+    },
+    "skos:inScheme": {
+      "@type": "@id"
+    },
+    "skos:broader": {
+      "@type": "@id"
+    },
+    "skos:narrower": {
+      "@type": "@id"
+    },
+    "skos:topConceptOf": {
+      "@type": "@id"
+    }
+  },
+  "id": "https://echoes-eccch.ue/taxonomy/domains",
+  "type": "skos:ConceptScheme",
+  "dct:description": {
+    "@language": "fr",
+    "@value": "Taxonomie utilisée dans le projet patrimonial ECHOES"
+  },
+  "dct:title": {
+    "@language": "fr",
+    "@value": "Taxonomie ECHOES"
+  },
+  "skos:hasTopConcept": [
+    {
+      "id": "domains:id-001",
+      "type": "skos:Concept",
+      "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+      "skos:narrower": [
+        {
+          "id": "domains:id-006",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-001",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Context Studies"
+          }
+        },
+        {
+          "id": "domains:id-010",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-001",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Dating"
+          }
+        },
+        {
+          "id": "domains:id-011",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-001",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Attribution"
+          }
+        },
+        {
+          "id": "domains:id-014",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-001",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Ethnological Studies"
+          }
+        },
+        {
+          "id": "domains:id-023",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-001",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Cultural Creative Industries"
+          }
+        }
+      ],
+      "skos:prefLabel": {
+        "en": "Interpretation, Understanding"
+      },
+      "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+    },
+    {
+      "id": "domains:id-002",
+      "type": "skos:Concept",
+      "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+      "skos:narrower": [
+        {
+          "id": "domains:id-009",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-002",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Publication"
+          }
+        },
+        {
+          "id": "domains:id-016",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-002",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Exhibition"
+          }
+        },
+        {
+          "id": "domains:id-017",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-002",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Artistic Creation"
+          }
+        },
+        {
+          "id": "domains:id-018",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-002",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Teaching"
+          }
+        }
+      ],
+      "skos:prefLabel": {
+        "en": "Creation, Mediation, Dissemination"
+      },
+      "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+    },
+    {
+      "id": "domains:id-003",
+      "type": "skos:Concept",
+      "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+      "skos:narrower": [
+        {
+          "id": "domains:id-007",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-003",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Cataloguing"
+          }
+        },
+        {
+          "id": "domains:id-008",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-003",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Inventory"
+          }
+        },
+        {
+          "id": "domains:id-013",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-003",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Storage"
+          }
+        },
+        {
+          "id": "domains:id-015",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-003",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Preventive Conservation"
+          }
+        },
+        {
+          "id": "domains:id-021",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-003",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Legal Protection"
+          }
+        },
+        {
+          "id": "domains:id-024",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-003",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Protection against Illicit Traffic"
+          }
+        }
+      ],
+      "skos:prefLabel": {
+        "en": "Preservation, Protection"
+      },
+      "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+    },
+    {
+      "id": "domains:id-004",
+      "type": "skos:Concept",
+      "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+      "skos:narrower": [
+        {
+          "id": "domains:id-012",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-004",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Conservation Treatments"
+          }
+        },
+        {
+          "id": "domains:id-019",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-004",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Deterioration Analyses"
+          }
+        },
+        {
+          "id": "domains:id-020",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-004",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Characterization"
+          }
+        },
+        {
+          "id": "domains:id-022",
+          "type": "skos:Concept",
+          "skos:broader": "domains:id-004",
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Visualization"
+          }
+        }
+      ],
+      "skos:prefLabel": {
+        "en": "Diagnosis, Intervention"
+      },
+      "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+    },
+    {
+      "id": "domains:id-005",
+      "type": "skos:Concept",
+      "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+      "skos:narrower": [
+        {
+          "id": "domains:id-012",
+          "type": "skos:Concept",
+          "skos:broader": {
+            "id": "domains:id-004",
+            "type": "skos:Concept",
+            "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+            "skos:narrower": [
+              "domains:id-012",
+              {
+                "id": "domains:id-019",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Deterioration Analyses"
+                }
+              },
+              {
+                "id": "domains:id-020",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Characterization"
+                }
+              },
+              {
+                "id": "domains:id-022",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Visualization"
+                }
+              }
+            ],
+            "skos:prefLabel": {
+              "en": "Diagnosis, Intervention"
+            },
+            "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+          },
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Conservation Treatments"
+          }
+        },
+        {
+          "id": "domains:id-019",
+          "type": "skos:Concept",
+          "skos:broader": {
+            "id": "domains:id-004",
+            "type": "skos:Concept",
+            "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+            "skos:narrower": [
+              {
+                "id": "domains:id-012",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Conservation Treatments"
+                }
+              },
+              "domains:id-019",
+              {
+                "id": "domains:id-020",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Characterization"
+                }
+              },
+              {
+                "id": "domains:id-022",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Visualization"
+                }
+              }
+            ],
+            "skos:prefLabel": {
+              "en": "Diagnosis, Intervention"
+            },
+            "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+          },
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Deterioration Analyses"
+          }
+        },
+        {
+          "id": "domains:id-020",
+          "type": "skos:Concept",
+          "skos:broader": {
+            "id": "domains:id-004",
+            "type": "skos:Concept",
+            "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+            "skos:narrower": [
+              {
+                "id": "domains:id-012",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Conservation Treatments"
+                }
+              },
+              {
+                "id": "domains:id-019",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Deterioration Analyses"
+                }
+              },
+              "domains:id-020",
+              {
+                "id": "domains:id-022",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Visualization"
+                }
+              }
+            ],
+            "skos:prefLabel": {
+              "en": "Diagnosis, Intervention"
+            },
+            "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+          },
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Characterization"
+          }
+        },
+        {
+          "id": "domains:id-022",
+          "type": "skos:Concept",
+          "skos:broader": {
+            "id": "domains:id-004",
+            "type": "skos:Concept",
+            "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+            "skos:narrower": [
+              {
+                "id": "domains:id-012",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Conservation Treatments"
+                }
+              },
+              {
+                "id": "domains:id-019",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Deterioration Analyses"
+                }
+              },
+              {
+                "id": "domains:id-020",
+                "type": "skos:Concept",
+                "skos:broader": "domains:id-004",
+                "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+                "skos:prefLabel": {
+                  "en": "Characterization"
+                }
+              },
+              "domains:id-022"
+            ],
+            "skos:prefLabel": {
+              "en": "Diagnosis, Intervention"
+            },
+            "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+          },
+          "skos:inScheme": "https://echoes-eccch.ue/taxonomy/domains",
+          "skos:prefLabel": {
+            "en": "Visualization"
+          }
+        }
+      ],
+      "skos:prefLabel": {
+        "en": "Computer scientists, Developers"
+      },
+      "skos:topConceptOf": "https://echoes-eccch.ue/taxonomy/domains"
+    }
+  ]
+}

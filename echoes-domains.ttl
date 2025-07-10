@@ -50,3 +50,88 @@ domains:id-007 a skos:Concept;
   skos:prefLabel "Cataloguing"@en;
   skos:broader domains:id-003;
   skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-008 a skos:Concept;
+  skos:prefLabel "Inventory"@en;
+  skos:broader domains:id-003;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-009 a skos:Concept;
+  skos:prefLabel "Publication"@en;
+  skos:broader domains:id-002;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-010 a skos:Concept;
+  skos:prefLabel "Dating"@en;
+  skos:broader domains:id-001;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-011 a skos:Concept;
+  skos:prefLabel "Attribution"@en;
+  skos:broader domains:id-001;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-012 a skos:Concept;
+  skos:prefLabel "Conservation Treatments"@en;
+  skos:broader domains:id-004;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-013 a skos:Concept;
+  skos:prefLabel "Storage"@en;
+  skos:broader domains:id-003;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-014 a skos:Concept;
+  skos:prefLabel "Ethnological Studies"@en;
+  skos:broader domains:id-001;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-015 a skos:Concept;
+  skos:prefLabel "Preventive Conservation"@en;
+  skos:broader domains:id-003;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-016 a skos:Concept;
+  skos:prefLabel "Exhibition"@en;
+  skos:broader domains:id-002;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-017 a skos:Concept;
+  skos:prefLabel "Artistic Creation"@en;
+  skos:broader domains:id-002;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-018 a skos:Concept;
+  skos:prefLabel "Teaching"@en;
+  skos:broader domains:id-002;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-019 a skos:Concept;
+  skos:prefLabel "Deterioration Analyses"@en;
+  skos:broader domains:id-004;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-020 a skos:Concept;
+  skos:prefLabel "Characterization"@en;
+  skos:broader domains:id-004;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-021 a skos:Concept;
+  skos:prefLabel "Legal Protection"@en;
+  skos:broader domains:id-003;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-022 a skos:Concept;
+  skos:prefLabel "Visualization"@en;
+  skos:broader domains:id-004;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-023 a skos:Concept;
+  skos:prefLabel "Cultural Creative Industries"@en;
+  skos:broader domains:id-001;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .
+
+domains:id-024 a skos:Concept;
+  skos:prefLabel "Protection against Illicit Traffic"@en;
+  skos:broader domains:id-003;
+  skos:inScheme <https://echoes-eccch.ue/taxonomy/domains> .

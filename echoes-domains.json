@@ -214,6 +214,244 @@
       "skos:inScheme": {
         "@id": "https://echoes-eccch.ue/taxonomy/domains"
       }
+    },
+    {
+      "@id": "domains:id-008",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Inventory",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-003"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-009",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Publication",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-002"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-010",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Dating",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-001"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-011",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Attribution",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-001"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-012",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Conservation Treatments",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-004"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-013",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Storage",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-003"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-014",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Ethnological Studies",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-001"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-015",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Preventive Conservation",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-003"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-016",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Exhibition",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-002"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-017",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Artistic Creation",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-002"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-018",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Teaching",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-002"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-019",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Deterioration Analyses",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-004"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-020",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Characterization",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-004"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-021",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Legal Protection",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-003"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-022",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Visualization",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-004"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-023",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Cultural Creative Industries",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-001"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
+    },
+    {
+      "@id": "domains:id-024",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Protection against Illicit Traffic",
+        "@language": "en"
+      },
+      "skos:broader": {
+        "@id": "domains:id-003"
+      },
+      "skos:inScheme": {
+        "@id": "https://echoes-eccch.ue/taxonomy/domains"
+      }
     }
   ]
 }
