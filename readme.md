@@ -34,7 +34,11 @@ SKOS can be serialized in many syntaxes, such as Turtle (TTL), JSON-LD, or XML.
 
 We will see that it is important to publish the taxonomy in several syntaxes if we want it to be used as widely as possible.
 
+For the Echoes project, it is a common controlled vocabulary that can be shared with anyone who wants to display, filter, or classify data using this taxonomy.
+
 ## Technical explanation
+
+<img width="2634" height="1378" alt="Using SKOS png" src="https://github.com/user-attachments/assets/084d3e7b-fe99-45a3-a791-3fb472b8786e" />
 
 ### Step 1 - Creation of turtle (TTL) file
 
@@ -62,3 +66,8 @@ Our cartography software waits for input, specific JSON, so we use an ETL to tra
 The last step display the taxonomy in our user interface, so that user can filter ECHOES organizations using the taxonomy.
 
 Here we come :)
+
+# Conclusion
+
+Our use case is one among many others. 
+It is important to understand that this standardization allows the ECHOES project to create a common controlled vocabulary that can be reused by all potential applications in the heritage sector.
