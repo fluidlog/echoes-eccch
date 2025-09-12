@@ -50,12 +50,12 @@ Our ETL (Extract, Transform, Load) Software work with JSON. So, we convert turtl
 
 ### Step 3 - Conversion to JSON-LD Framed
 
-In JSON-LD has a serialisation that is more readable. So we add a "JSON-LD Framed" in the directory.
+JSON-LD has a serialisation that is more readable. So we add a "JSON-LD Framed" in the directory.
 We dont't use this serialisation in our project, but other application can use it.
 
 ### Step 4 - Transformation to JSON
 
-Our cartography software waits for input, specific JSON, so we use an ETL to transform the JSON-LD in simple JSON.
+Our cartography software waits for input, specific JSON, so we use an ETL to transform the JSON-LD in simple JSON. It's our implementation choice, but at this step, every application does what it want.
 
 ### Step 5 - SemApps Importers
 
